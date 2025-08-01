@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header{
+    width: 100%;
+    height: 100vh;
+}
+
+nav{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FDFCE8;
+    top: 0;
+    z-index: 100;
+}
+.logo{
+    width: 60px;
+    height: auto;
+    margin-left: 20px;
+}
+.navbar{
+    width: 100%;
+    margin-right: 20px;
+}
+.navbar ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+.navbar li{
+    padding: 10px;
+}
+.navbar a{
+    font-family:"Poppins", sans-serif;;
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+}
+.portadaarriba{
+    background-image: url(./img/hojitas.png);
+    backdrop-filter: brightness(0.3);
+    height: 55vh;
+    display: flex;
+    justify-content:flex-start;
+    align-items: flex-end;
+    
+}
+.portadaarriba h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 60px;
+    font-size: 70px;
+    color: #FDFCE8;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+.portadaabajo{
+    background-color: #FDFCE8;
+    height: 45vh;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.portadaabajo h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    line-height: 70px;
+    font-style: normal;
+    font-size: 70px;
+    color: #31352E;
+    margin-left: 50px;
+}
+.portadaabajo img{
+    width: 60px;
+}
