@@ -41,9 +41,13 @@ nav{
     font-size: 14px;
     color: black;
 }
-.portadaarriba{
+.portada{
     background-image: url(./img/hojitas.png);
-    backdrop-filter: brightness(0.3);
+    
+    backdrop-filter: brightness(1);
+}
+.portadaarriba{
+    backdrop-filter: blur(2px);
     height: 55vh;
     display: flex;
     justify-content:flex-start;
