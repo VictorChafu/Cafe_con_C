@@ -10,7 +10,7 @@ header{
 }
 
 nav{
-    height: 80px;
+    height: 15vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -51,6 +51,7 @@ nav{
     display: flex;
     justify-content:flex-start;
     align-items: flex-end;
+    padding-left: 50px;
     
 }
 .portadaarriba h1{
@@ -60,11 +61,12 @@ nav{
     line-height: 60px;
     font-size: 70px;
     color: #FDFCE8;
-    margin-left: 50px;
     margin-bottom: 20px;
 }
 .portadaabajo{
     background-color: #FDFCE8;
+    height: 35vh;
+    padding-left: 50px;
     display: flex;
     align-items: center;
     flex-direction: row;
@@ -78,8 +80,17 @@ nav{
     font-style: normal;
     font-size: 70px;
     color: #31352E;
-    margin-left: 50px;
+}
+.portadaabajo h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    line-height: 70px;
+    font-style: normal;
+    font-size: 70px;
+    color: #31352E;
 }
 .portadaabajo img{
+    margin-left: 10px;
+    margin-right: 10px;
     width: 60px;
 }
