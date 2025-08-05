@@ -4,6 +4,9 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
+section{
+    background-color: #FDFCE8;
+}
 @keyframes fadeInUp {
   from {
     opacity: 0;
@@ -28,7 +31,7 @@
 
 header{
     width: 100%;
-    height: 100vh;
+    height: 90vh;
 }
 
 nav{
@@ -63,11 +66,8 @@ nav{
     font-size: 14px;
     color: black;
 }
-.portada{
-    background-image: url(./img/hojitas.png);
-    backdrop-filter: brightness(0.5);
-}
 .portadaarriba{
+    background-color: #435233;
     backdrop-filter: blur(2px);
     height: 50vh;
     display: flex;
@@ -87,7 +87,6 @@ nav{
 }
 .portadaabajo{
     background-color: #FDFCE8;
-    height: 35vh;
     padding-left: 50px;
     display: flex;
     align-items: center;
