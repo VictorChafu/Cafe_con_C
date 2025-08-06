@@ -1,9 +1,7 @@
 const sections = [
         '.logo',
         '.portada',
-        '.frases',
         '.menufotos',
-        '.delibery',
         '.ubicacion',
         '.sp',
     ];
