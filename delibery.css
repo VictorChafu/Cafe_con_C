@@ -1,17 +1,27 @@
 .delibery{
     width: 100%;
     height: 70vh;
-    background-image:url(./img/hojitas.png);
+    background-image:url(./img/background/ChatGPT\ Image\ 6\ ago\ 2025\,\ 17_02_27.png);
+    background-position:center;
+    background-attachment: fixed;
+    background-size: cover;
     display: flex;
     align-items: center;
-    justify-content: space-around;
 }
 .delibery img{
-    width: 50vh;
+    width: 20%;
     height: auto;
+    z-index: -1;
     transition: all 0.3s ease;
+    grid-template-columns: 
+    repeat(auto-fit, minmax(150px, 1fr));
+
 }
 .delibery h2{
+    font-family: "Poppins", sans-serif;
+    font-size: 50px;
+    line-height: 40px;
+    padding-left: 30px;
     font-size: 40px;
-    color: #31352E;
+    color: #FDFCE8;
 }
