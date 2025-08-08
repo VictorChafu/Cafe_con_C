@@ -11,11 +11,13 @@
     height: auto;
     display: flex;
     flex-direction: column;
-    
+    padding-left: 30px;
 }
 .cc2{
     display: flex;
+    align-items: center;
     padding-bottom: 30px;
+    padding-left: 30px;
 }
 .cc2 h1{
     padding-right: 10px;
@@ -25,12 +27,17 @@
     padding-left: 10px;
     font-size: 30px;
 }
-.cc2 img{
+.cc2 .heart{
     width: 40px;
-    height: auto;
+    height: 40px;
+}
+.cc2 .logoubi{
+    width: 40px;
+    margin-left: 20px;
 }
 .cc h4{
     font-size: 20px;
     color: #435233;
+    padding-top: 30px;
     padding-bottom: 6px;
 }
