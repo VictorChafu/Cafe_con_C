@@ -47,3 +47,29 @@ a h4{
     font-size: 20px;
     box-shadow: 0px 10px 30px #000;
 }
+@media (max-width: 620px) {
+    .playlist{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .fotosp img{
+    width: 25vh;
+    margin-top: 50px;
+    object-fit: cover;
+    box-shadow: 0px 0px 30px #000;
+    transition: transform 0.5s ease;
+    }
+    .fotosp img:hover{
+    cursor: pointer;
+    transform: scale(1.05) translateY(-5px);
+    }
+    .sp{
+        padding: 0 ;
+        align-items: center;
+    }
+    .sp h3   {
+        font-size: 30px;
+        padding-top: 10px;
+    }
+}

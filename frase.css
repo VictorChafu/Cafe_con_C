@@ -1,8 +1,6 @@
+
 .frases{
     background-color: #435233;
-    
-        
-
 }
 .participacion{
     width: 100%;
@@ -35,4 +33,26 @@
 .frase p{
     
     color: #c7c6b6;
+}
+
+@media (max-width: 620px) {
+ 
+  .participacion{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 80vh;
+  }
+  .participacion img{
+    width: 40px;
+  }
+  .fotocliente img{
+    width: 200px;
+  }
+  .frase{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
 }
