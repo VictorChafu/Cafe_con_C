@@ -3,7 +3,6 @@ const sections = [
         '.portada',
         '.menufotos',
         '.ubicacion',
-        '.sp',
     ];
 
     const observer = new IntersectionObserver((entries) => {
