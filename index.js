@@ -30,3 +30,19 @@ const sections = [
             navbar?.classList.remove('scrolled');
         }
     });
+
+    // === Toggle menú responsive ===
+    const menuToggle = document.querySelector('.menu-toggle');
+    const navbarMenu = document.querySelector('.navbar ul');
+
+    if (menuToggle && navbarMenu) {
+        menuToggle.addEventListener('click', () => {
+            navbarMenu.classList.toggle('active');
+        });
+
+        document.querySelectorAll('.navbar ul li a').forEach(link => {
+            link.addEventListener('click', () => {
+                navbarMenu.classList.remove('active');
+            });
+        });
+    }

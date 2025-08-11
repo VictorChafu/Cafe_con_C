@@ -28,6 +28,23 @@ section{
   opacity: 1;
   transform: translateY(0);
 }
+.menu-toggle {
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.menu-toggle span {
+  display: block;
+  height: 3px;
+  width: 100%;
+  background-color: #000000;
+  border-radius: 3px;
+}
 
 header{
     width: 100%;
@@ -81,7 +98,7 @@ nav{
     font-weight: 700;
     font-style: normal;
     line-height: 60px;
-    font-size: 70px;
+    font-size: 68px;
     color: #FDFCE8;
     margin-bottom: 20px;
 }
@@ -114,4 +131,42 @@ nav{
     margin-left: 10px;
     margin-right: 10px;
     width: 60px;
+}
+
+@media (max-width: 620px) {
+    .menu-toggle {
+        display: flex;
+    }
+    .navbar{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: auto;
+        padding: 0;
+        margin: 0;
+    }
+    .navbar ul {
+        display: none;
+    }
+    .navbar ul.active {
+        width: 60%;
+        height: 50vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        z-index: 100;
+        top: 0;
+        position:absolute;
+        flex-direction: column;
+        background-color: #FDFCE8;
+        box-shadow: 0px 0px 30px #000;
+        margin-top: 15vh;
+  }
+    
+  .navbar li {
+        text-align: center;
+  }
+  .navbar li:hover{
+    background-color: #435233;
+  }
 }
