@@ -1,7 +1,9 @@
 .instagram{
+    display: flex;
+    flex-direction: column;
     background: #FDFCE8;
     width: 100%;
-    height: 80vh;
+    height: auto;
 }
 .instagram h2{
     padding-left: 20px;
@@ -9,16 +11,17 @@
     color: #435233;
 }
 .igfotos{
-    display: flex;
+    display: grid;
     position: relative;
     grid-template-columns: 
     repeat(auto-fit, minmax(150px, 1fr));
+    gap: 3px;
     margin-top: 30px;
+    align-items: center;
     justify-items: center;
-    justify-content: space-around;
 }
 .igfotos img{
-    width: 20%;
+    width: 100%;
     height: auto;
     align-items: center;
     object-fit: cover;
