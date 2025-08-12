@@ -169,4 +169,10 @@ nav{
   .navbar li:hover{
     background-color: #435233;
   }
+  .portadaarriba{
+    padding-left: 20px;
+  }
+  .portadaabajo{
+    padding-left: 20px;
+  }
 }

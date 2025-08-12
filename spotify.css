@@ -9,6 +9,7 @@
 .playlist{
     display: flex;
     justify-content: space-around;
+    padding-top: 10vh;
 }
 .sp{
     padding-top: 30px;
@@ -53,6 +54,7 @@ a h4{
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
     }
     .fotosp img{
     width: 25vh;
