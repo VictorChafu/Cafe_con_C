@@ -10,6 +10,9 @@
     font-size: 40px;
     color: #435233;
 }
+.instagram img{
+    width: 40px;
+}
 .igfotos{
     display: grid;
     position: relative;
