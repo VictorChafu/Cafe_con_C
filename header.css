@@ -83,14 +83,19 @@ nav{
     font-size: 14px;
     color: black;
 }
+.contenedor {
+  text-align: center; /* centra el contenido inline, como el button */
+  padding-top: 20px;
+}
 .portadaarriba{
     background-color: #435233;
     backdrop-filter: blur(2px);
     height: 50vh;
     display: flex;
+    flex-direction: column;
     justify-content:flex-start;
-    align-items: flex-end;
     padding-left: 50px;
+    padding-top: 30vh;
     
 }
 .portadaarriba h1{
@@ -98,9 +103,22 @@ nav{
     font-weight: 700;
     font-style: normal;
     line-height: 60px;
-    font-size: 68px;
+    font-size: 50px;
     color: #FDFCE8;
-    margin-bottom: 20px;
+}
+.portadaarriba .ccafe{
+  font-size: 70px;
+}
+.ccafe{
+  opacity: 0;
+  transform: translateY(20px); /* baja un poquito el texto */
+  animation: fadeInUp 1.2s ease-out forwards;
+}
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 .portadaabajo{
     background-color: #FDFCE8;
@@ -116,7 +134,7 @@ nav{
     font-weight: 700;
     line-height: 70px;
     font-style: normal;
-    font-size: 70px;
+    font-size: 50px;
     color: #31352E;
 }
 .portadaabajo h2{
@@ -124,7 +142,7 @@ nav{
     font-weight: 700;
     line-height: 70px;
     font-style: normal;
-    font-size: 70px;
+    font-size: 50px;
     color: #31352E;
 }
 .portadaabajo img{
@@ -171,8 +189,14 @@ nav{
   }
   .portadaarriba{
     padding-left: 20px;
+    height: 52vh;
+  }
+  .portada h1{
+    line-height: 60px;
+
   }
   .portadaabajo{
     padding-left: 20px;
+    margin-top: 20px;
   }
 }
