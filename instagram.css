@@ -13,6 +13,10 @@
 .instagram img{
     width: 40px;
 }
+.instagram a{
+    padding-left: 20px;
+    padding-top: 10px;
+}
 .igfotos{
     display: grid;
     position: relative;
