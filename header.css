@@ -214,3 +214,25 @@ nav{
     padding-left: 20px;
   }
 }
+
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 30px;
+}
+footer img{
+  padding-top: 30px;
+  width: 60px;
+}
+footer li{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  list-style: none;
+}
+footer a{
+  
+  color: #435233;
+}
