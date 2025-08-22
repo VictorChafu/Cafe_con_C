@@ -7,15 +7,29 @@
 }
 .instagram h2{
     padding-left: 20px;
-    font-size: 40px;
+    font-size: 37px;
     color: #435233;
+    text-transform: uppercase;
+    text-decoration: underline;
 }
 .instagram img{
     width: 40px;
 }
-.instagram a{
+ .logoig {
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
     padding-left: 20px;
-    padding-top: 10px;
+}
+.logoig button:hover{
+    background: #435233;
+    color: #FDFCE8;
+}
+.logoig button{
+    padding: 10px 10px;
+    margin-left: 10px;
+    border-radius: 20px;
+    cursor: pointer;
 }
 .igfotos{
     display: grid;
@@ -23,6 +37,7 @@
     grid-template-columns: 
     repeat(auto-fit, minmax(150px, 1fr));
     gap: 3px;
+    padding: 10px;
     margin-top: 30px;
     align-items: center;
     justify-items: center;
