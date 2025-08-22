@@ -1,7 +1,10 @@
 .containerspoti{
     width: 100%;
     height: 110vh;
-    background-color: #435233;
+    background: url(./img/background/ladrillos.jpg);
+    background-position:center;
+    background-attachment: fixed;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
