@@ -1,6 +1,6 @@
 .containerspoti{
     width: 100%;
-    height: 90vh;
+    height: 110vh;
     background-color: #435233;
     display: flex;
     flex-direction: column;
@@ -25,10 +25,12 @@
 }
 .sp img{
     width: 80px;
+    margin: 10px;
 }
 .fotosp{
     display: flex;
     align-items: center;
+    
 }
 .fotosp img{
     width: 40vh;
@@ -59,9 +61,12 @@ a h4{
         flex-direction: column;
         align-items: center;
         justify-content: center;
+
     }
     .fotosp{
         margin-top: 30px;
+        display: flex;
+        flex-direction: column;
     }
     .fotosp img{
     width: 25vh;
