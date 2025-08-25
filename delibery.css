@@ -25,3 +25,14 @@
     font-size: 40px;
     color: #FDFCE8;
 }
+@media (max-width: 620px) {
+    .delibery{
+        background-position: center;
+        background-attachment: inherit;
+        backdrop-filter: brightness(0.9);
+    }
+    .delibery h2{
+        box-shadow: 0 30px 20px #FDFCE8;
+        filter: 0 0 20px black;
+    }
+}

@@ -59,6 +59,17 @@ a h4{
     box-shadow: 0px 10px 30px #000;
 }
 @media (max-width: 620px) {
+    .containerspoti{
+    width: 100%;
+    height: 110vh;
+    background: url(./img/background/ladrillos.jpg);
+    background-position:center;
+    background-attachment:local;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
     .playlist{
         display: flex;
         flex-direction: column;
